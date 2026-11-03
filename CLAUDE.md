@@ -21,6 +21,15 @@ building automated, recurring online revenue.
 6. `cfo` sets up billing (test mode first) and keeps `workspace/metrics.md` current.
 7. Weekly: `vice-president` reviews metrics → double down / iterate / kill.
 
+## About the owner
+
+The owner has a technical / IT background and can take on IT work (hosting,
+deployment, DNS, integrations, troubleshooting). Treat this as an unfair advantage:
+- Favor opportunities where technical skill is a moat (micro-SaaS, APIs, automation
+  tools, plugins/extensions, IT-adjacent niches like MSP or small-business IT tools).
+- When a task needs hands-on IT setup, assign it to the owner with clear steps
+  instead of assuming a paid service.
+
 ## Shared rules
 
 - All shared state lives in `workspace/`. Read before writing; don't overwrite a teammate's file without reason.

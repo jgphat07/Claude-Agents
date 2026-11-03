@@ -2,7 +2,7 @@
 
 Fill in what you can — the revenue-strategist uses this to pick ideas that fit you.
 
-- **Skills / experience:** TODO (e.g. coding, design, writing, sales, an industry you know well)
+- **Skills / experience:** Technical / IT background. Owner can handle IT needs: hosting, deployment, domains/DNS, integrations, troubleshooting. TODO: specific strengths (e.g. networking, sysadmin, cloud, security, scripting, which languages)
 - **Hours per week available:** TODO
 - **Budget you're willing to spend up front:** TODO
 - **Monthly revenue goal (and by when):** TODO
