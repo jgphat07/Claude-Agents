@@ -1,6 +1,6 @@
 # Founder profile
 
-Fill in what you can — the revenue-strategist uses this to pick ideas that fit you.
+Fill in what you can — the vice-president uses this to pick ideas that fit you.
 
 - **Skills / experience:** Technical / IT background. Owner can handle IT needs: hosting, deployment, domains/DNS, integrations, troubleshooting. TODO: specific strengths (e.g. networking, sysadmin, cloud, security, scripting, which languages)
 - **Hours per week available:** TODO
