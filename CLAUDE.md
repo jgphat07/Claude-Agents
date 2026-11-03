@@ -5,24 +5,24 @@ building automated, recurring online revenue.
 
 | Agent | Role |
 |---|---|
-| `revenue-strategist` | Lead. Scores ideas, picks winners, writes plans, runs weekly reviews |
-| `market-researcher` | Proves demand, tears down competitors, sets pricing |
-| `product-builder` | Builds the minimum sellable product + landing page |
-| `growth-marketer` | Launch, SEO, email sequences, retention |
-| `automation-engineer` | Billing, fulfillment, scheduled pipelines, metrics |
+| `vice-president` | Leader. Sets priorities, picks opportunities, writes plans, delegates, runs weekly reviews |
+| `cfo` | Pricing, unit economics, budgets, subscription billing, revenue metrics, tax flags |
+| `business-development` | Sources opportunities, designs and builds the offer, partnerships, affiliates, sponsors |
+| `marketing-social-media-manager` | Brand, social media, content/SEO, email, launches, automated posting |
+| `research-assistant` | Sourced research: demand proof, competitors, pricing benchmarks, trends |
 
 ## Workflow
 
 1. Fill in `workspace/profile.md`.
-2. `revenue-strategist` → `workspace/opportunities.md` (scored list) and `workspace/plan-<slug>.md`.
-3. `market-researcher` → `workspace/research/<slug>.md` (GO / TEST FIRST / NO-GO).
-4. `product-builder` → `workspace/build/<slug>/`.
-5. `growth-marketer` → `workspace/marketing/<slug>/`.
-6. `automation-engineer` → `workspace/automation/<slug>/` and `workspace/metrics.md`.
-7. Weekly: `revenue-strategist` reviews metrics and decides double down / iterate / kill.
+2. `vice-president` kicks off: `business-development` proposes ideas → `research-assistant` validates → `cfo` models the numbers.
+3. `vice-president` scores them in `workspace/opportunities.md` and writes `workspace/plan-<slug>.md`.
+4. `business-development` builds the offer in `workspace/build/<slug>/` and lines up partners.
+5. `marketing-social-media-manager` creates brand, content, and launch assets in `workspace/marketing/<slug>/`.
+6. `cfo` sets up billing (test mode first) and keeps `workspace/metrics.md` current.
+7. Weekly: `vice-president` reviews metrics → double down / iterate / kill.
 
 ## Shared rules
 
 - All shared state lives in `workspace/`. Read before writing; don't overwrite a teammate's file without reason.
-- No spending money, creating accounts, publishing, or contacting real people without the user's explicit OK.
+- No spending money, creating accounts, publishing, or contacting real people without the owner's explicit OK.
 - No deceptive, spammy, or ToS-violating tactics. Cite sources for market claims.
