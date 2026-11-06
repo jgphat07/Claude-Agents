@@ -1,6 +1,6 @@
 # Plan: Jira Expiry Guard (working name)
 
-Status: PROPOSED. The Week-1 research gate is pending, and the owner must approve before any accounts are created.
+Status: SUPERSEDED on 2026-11-06 by `workspace/plan-renewals-register.md` (broader renewals register, same Forge platform). Kept for history.
 Owner of plan: vice-president. Created 2026-11-03. Source scoring: `workspace/opportunities.md` (#1, 26/35).
 
 Numbers marked (est.) are vice-president estimates, not sourced facts.
