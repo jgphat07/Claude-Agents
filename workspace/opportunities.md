@@ -183,3 +183,98 @@ Considered and excluded:
 - **Runner-up:** #2 DMARC monitoring. Revisit only if #1 fails its research gate or its 9-month kill criterion.
 - **Phase-2 module:** #3 Entra secrets, folded into #1 rather than built as a separate business.
 - **Gate before build:** research-assistant must verify competitor installs, prices, and reviews on the two existing Marketplace apps, and the Forge egress/TLS capability (see plan, Week 1).
+
+---
+
+# Opportunity slate #2: owner's three-way comparison (2026-11-06)
+
+Prepared by: vice-president. I did the business-development sourcing and cfo math in this pass; there was no Agent access. The owner asked for a side-by-side of A (restock alerts), B (legal YouTube Shorts: i = paid clipping, ii = faceless AI channel) and C ("copy and improve" apps). Constraints are unchanged: technical/IT owner, 5 hrs/week, $0 up front, fully automated, $3k/month recurring.
+
+**Research limits for this pass**
+- walmart.com, reddit.com and whop.com are blocked. `marketplace.atlassian.com` also failed in WebFetch this session (`ENOTFOUND`). Atlassian numbers come from the shell-verified table in `workspace/research/jira-expiry-guard.md` (2026-11-03).
+- Tag **[S]** = search-snippet only, not a page read. Tag **(est.)** = vice-president estimate.
+- Product and competitor lists for A belong to research-assistant's `workspace/research/out-of-stock-products.md`. They are not repeated here.
+
+## Scores (same rubric: 1-5 each, 5 = good, max 35)
+
+| # | Candidate | Demand | WTP | Auto | Time | Cost | Edge | Risk | **Total** |
+|---|---|---|---|---|---|---|---|---|---|
+| C | Copy-and-improve: B2B marketplace app. Best target is the Forge **renewals and reminders register** for Jira/JSM | 4 | 4 | 4 | 2 | 5 | 4 | 3 | **26** |
+| B(i) | Paid clipping campaigns (owner works as a clipper) | 4 | 2 | 1 | 4 | 4 | 1 | 2 | **18** |
+| A | Restock-alert paid Discord/Telegram plus affiliate links | 4 | 3 | 2 | 3 | 2 | 3 | 1 | **18** |
+| B(ii) | Automated faceless AI Shorts channel (original content) | 3 | 1 | 4 | 1 | 3 | 2 | 1 | **15** |
+
+## Side-by-side economics and operations
+
+| | A. Restock alerts | B(i). Clipping | B(ii). AI Shorts | C. Renewals register (Forge) |
+|---|---|---|---|---|
+| Realistic automation | **Low to medium.** Monitors break whenever a retailer changes its site or bot defences. A Discord community needs moderation, refunds and "why did I miss it" support. | **None.** Each clip is hand-picked, edited, captioned and posted. Income scales only with hours worked. | **Medium.** Script, TTS, stock footage and upload can be piped together. Human input is still needed to avoid the "inauthentic content" demonetisation. | **High.** Atlassian hosts the app, bills, collects and handles tax. Forge scheduled triggers do the work. Only async support remains. |
+| Hours/week after launch | 5-10 (est.), which is over budget | All 5, with output capped by those hours | 2-4 for QA and topic work (est.) | 0.5-1 for support, plus a few hours a quarter for updates (est.) |
+| Time to first $ | 1-3 months. A paid tier needs an audience first, and the owner has none. | 1-4 weeks, if a clip clears a campaign's minimum-view threshold | 6-18 months. The YPP ad-revenue gate is 1,000 subscribers plus 4,000 watch hours, or 10M Shorts views in 90 days [S] ([vidIQ](https://vidiq.com/blog/post/monetize-youtube-guide/), [SEJ](https://searchenginejournal.com/youtube-shorts-monetization-how-revenue-sharing-works/478652/)). | About 8-12 weeks: 4 weeks to build plus Marketplace review. First $ around Feb-Mar 2027 (est.). |
+| Price / rate | Paid groups charge about $6-25/mo [S] ([Plugged Inn/Whop review page](https://sites.google.com/view/whopreviews/pluginn), [Lunchmoney](https://sites.google.com/view/whopreviews/lunchmoney)). Walmart affiliate pays 1-4% by category (electronics/games 1%), with a short cookie (3 days per one source) [S] ([argil](https://argil.ai/blog/walmart-affiliate-program-cd8f1), [nichepursuits](https://www.nichepursuits.com/walmart-affiliate-program/)). | Median about **$1 per 1,000 views**, with a range of about $0.20-6. Reported 7% platform fee on payouts. Each clip has a minimum payout and a cap [S] ([builtbyfoundry](https://www.builtbyfoundry.io/blog/what-is-clipping-1-dollar-per-1000-views-50-campaigns), [opus.pro](https://www.opus.pro/blog/whop-content-rewards), [Whop docs](https://docs.whop.com/manage-your-business/growth-marketing/content-rewards)). | Shorts RPM about **$0.03-0.07 per 1,000 views** (wider range $0.01-0.30). Creators get 45% of the pooled revenue [S] ([vidIQ](https://vidiq.com/blog/post/youtube-shorts-monetization/), [shortsync](https://www.shortsync.app/resources/how-much-do-youtube-shorts-pay-2026)). | Atlassian per-user tiers. Comparable asset/licence apps charge **$562.50-712.50/yr at 25 users** and $2,250-2,850/yr at 100 users. Reminder apps charge **$87.50-100/yr at 25 users** (verified Marketplace API pull, `research/jira-expiry-guard.md`). 0% revenue share on Forge until $1M. |
+| Fees | Whop about 3% + 2.7% + 30c (6-7% all-in) [S] ([dodopayments](https://dodopayments.com/blogs/whop-fees-explained)). Discord Server Subscriptions take 10%, **US-based owners only** [S] ([Shacknews](https://www.shacknews.com/article/133327/discord-server-subscription-revenue), [Discord](https://discord.com/blog/server-and-creator-subscriptions)). | About 7% [S] | YouTube keeps 55% of the Shorts pool | 0% (Forge, eligible) |
+| **Needed for $3k/mo** | **About 330 members at $10/mo**, or 220 at $15, net of about 8% fees. Affiliate-only would need **$75k-300k/mo in Walmart sales** at 1-4%. | **About 3.2M paid views every month**, net of the 7% fee, and it has to be re-earned from new campaigns each month | **About 43M-100M monetised Shorts views every month** from ads alone | **About 120 paying sites at about $25/mo blended** (est.). That is roughly 1,000-1,400 cumulative installs at 8-12 installs per paying site (est.). |
+| Is it recurring? | Yes (memberships) but churn is high: demand is hype-driven and tied to drops (est.) | **No.** It is piece-rate work, and campaign budgets run out. | Partly. Ad revenue follows views, which decay. | Yes. Annual and monthly Marketplace subscriptions renew automatically. |
+| Odds of $3k/mo within 12 months (est.) | ~3% (compliant version) | ~2%, and it would not be passive | ~1-2% | ~10% (25-30% within 24 months) |
+
+## Platform and legal risks
+
+**A. Restock alerts (Risk = 1)**
+- **ToS:** Walmart's Terms of Use reportedly require *express prior written consent* for any automated or manual tool used to scrape or gather site materials, with no small-scale exception [S] ([ConductAtlas summary](https://conductatlas.com/platform/walmart/walmart-terms-of-use/prohibition-on-automated-data-scraping/)). Our rules ban ToS-violating scraping, so **a Walmart page monitor is excluded unless Walmart grants API access.**
+- **Compliant data paths are gated:**
+  - The Walmart affiliate API (Walmart I/O) requires an application and approval [S] ([webscraping.ai FAQ](https://webscraping.ai/faq/walmart-scraping/can-i-use-walmart-s-api-instead-of-scraping-the-site)).
+  - The Best Buy Developer API exists, but commercial use reportedly needs Best Buy's approval, caching is restricted, and gaming titles are excluded unless you have an affiliate or signed agreement [S] ([Best Buy API terms](https://developer.bestbuy.com/legal)).
+- **Cost:** Retailer bot defences mean that, in practice, competitors pay for proxies and servers, which breaks the $0 rule (est.).
+- **Competition:** Free Discord servers have 20k-67k members [S] ([tcgdropradar](https://tcgdropradar.com/), [pagecrawl](https://pagecrawl.io/blog/pokemon-tcg-restock-new-set-drop-alerts)). Free apps such as HotStock and NowInStock, and retailers' own "notify me" buttons, already exist [S] ([visualping](https://visualping.io/blog/walmart-in-stock-alerts)).
+- **Reputation:** Some buyers see paid alert groups as scams [S]. Groups also face pressure to add auto-checkout bots, which are a ToS problem and which we would refuse.
+- **Payout and tax:** Affiliate income is taxable. Discord Server Subscriptions are US-only [S].
+
+**B(i). Clipping (Risk = 2)**
+- **Copyright is fine** when the creator authorises the campaign.
+- **Platform and payout risks:**
+  - Short-form platforms may throttle new accounts that post many similar clips.
+  - Campaign budgets end without notice, and the campaign owner can reject submissions.
+  - Views must be organic. Buying views is fraud, and we will not do it.
+- **Fit:** It breaks the owner's "fully automated, no client services" rule. It is a gig, not a business asset.
+
+**B(ii). Faceless AI Shorts (Risk = 1)**
+- **Policy:** YouTube's July 15, 2025 "inauthentic content" update targets mass-produced, repetitive content. AI is allowed, but monetisation needs meaningful human input [S] ([Net Influencer](https://www.netinfluencer.com/youtube-clarifies-july-15-policy-update-repetitious-content-rebranded-as-inauthentic-content/), [The Week](https://www.theweek.in/news/sci-tech/2025/07/10/youtube-rolls-out-new-rules-to-curb-ai-content-who-is-affected-and-who-is-safe.amp.html)). A fully automated channel is exactly what the policy targets.
+- **Disclosure:** Realistic synthetic content must be labelled.
+- **Monetisation gate may rise:** One report says the Shorts threshold may rise to 20M views/90 days from Feb 2027. Sources conflict and this is unverified [S] ([lilachbullock](https://www.lilachbullock.com/youtube-shorts-monetisation-requirements-explained/)).
+- **Cost:** LLM and TTS APIs cost money beyond small free tiers.
+
+**C. Renewals register on Forge (Risk = 3)**
+- **Platform dependence:** Atlassian's 0% revenue share is temporary [S], and Forge has charged for usage since Jan 2026.
+- **Free substitutes:** Native Jira Automation and JSM Assets recipes do part of the job.
+- **Ranking:** Marketplace ranking is opaque.
+- **IP:** Copy features only. No code, names, screenshots or copy from competitors. Avoid "Jira" at the start of the app name (trademark).
+- **Low legal risk otherwise.**
+
+## C: specific "copy and improve" targets
+
+| # | Store | Target app (verify live) | Installs/users | Price | Review complaints | Our improved version | Fit |
+|---|---|---|---|---|---|---|---|
+| C1 | Atlassian | **License Manager: Domain and SSL Cert Expiry** (Softlist) plus the asset/licence category | 94 installs, 3.75 (6 reviews). **Category comparables: IT Assets & License (devsamurai) 1,541 installs, 4.72; Asset Management for Jira (conelike) 1,350 installs, 4.38** (verified API pull, 2026-11-03) | License Manager is free for ≤10 users, $137.50/yr at 25 users, $550/yr at 100. Asset apps are $562.50-712.50/yr at 25 users. | A review says it "does not work". A Community thread reports missed notifications and ccTLD gaps [S] ([App Central](https://community.atlassian.com/t5/App-Central/Monitor-Domain-amp-SSL-Certificate-Expiry-from-Jira/ba-p/1978551)) | **Renewals register:** SaaS subscriptions, licences, contracts, warranties, domains (RDAP) and certs. Tracks **cancel-by/notice deadlines** and annual cost. Auto-creates Jira/JSM work items, and shows a visible delivery log so no reminder is silently missed. | **Best.** Highest price point in the slate, and it fits the owner's IT background. |
+| C2 | Atlassian | **My Reminders for Jira** (free, Atlassian Labs) and the paid **Reminder for Jira** (teamlead) | My Reminders: 3,427 installs, **3.5-3.55 (79 reviews)**. Teamlead: 1,177 installs, 4.53 (32) | My Reminders is free. Teamlead is $20/yr at 10 users, $87.50 at 25, $350 at 100. | Saved reminders "never produced an email" [S] ([Community thread](https://community.atlassian.com/forums/Jira-questions/My-Reminders-for-Jira-not-sending-reminder-emails/qaq-p/2629172)) | Reliable relative/recurring reminders on any date field, with a delivery log. **Same engine as C1**, so it can be a second listing from one codebase. | Strong, as a sister app |
+| C3 | Chrome Web Store | **ModHeader: Modify HTTP headers** | 800k-900k users, **rating about 3.0-3.2 from about 1,100 ratings** [S] ([extscope](https://extscope.org/extension/idgpnmonknjnojddfkpgkljpfnnfcklj)) | Free, ad-supported. Paid from about $2/mo [S] ([toolradar](https://toolradar.com/tools/modheader)) | Ad injection ("ADWARE"), pop-up tabs, login required for paid features [S] ([Requestly comparison, a competitor page](https://requestly.com/modheader/), [Firefox reviews](https://addons.mozilla.org/ru/firefox/addon/modheader-firefox/reviews/)) | A no-ads, no-login, privacy-first header tool with a small paid tier for profile sync | Medium. Huge funnel, but WTP is about $2/mo, free rivals (Requestly, Postman) exist, and it would need about 1,500 payers |
+| C4 | Shopify | **Back-in-stock alert apps** (Swym, Notify!, Stok). This is the legal, merchant-side version of idea A. | Leader "Notify Me!" has 3,894 reviews at 4.9. Weaker apps carry 1-star clusters [S] ([appnavigator](https://appnavigator.io/app/watchlist/)) | From about $14.99/mo [S] ([digismoothie](https://digismoothie.com/app/back-in-stock-product-alerts)) | Notifications not sent, slow inventory sync, price hikes, push to $200+/yr plans, billing disputes [S] ([Shopify reviews 1966276](https://apps.shopify.com/reviews/1966276), [1374650](https://apps.shopify.com/reviews/1374650), [1451311](https://apps.shopify.com/reviews/1451311)) | A simple, reliable, cheap flat-price app | Weak to medium. Crowded, with a 4.9 leader. Needs external hosting and email sending (Resend free tier is 100/day). Merchant support load is high. |
+| C5 | Chrome/Firefox | **Distill Web Monitor** | Users not verified | From $15/mo [S] ([Software Advice](https://www.softwareadvice.com/website-monitoring/distill-profile)) | "Too expensive", "getting more restrictive", billing complaints; the Firefox build is called abandoned [S] ([AMO reviews](https://addons.mozilla.org/en-US/firefox/addon/distill-web-monitor-ff/reviews/?page=1)) | A cheaper change monitor | Weak. Commodity product (changedetection.io, Visualping), and a ToS grey zone depending on the sites users monitor |
+
+## Decision (slate #2)
+- **Pick: C, via target C1 (with C2 as its sister listing).** The plan is `workspace/plan-renewals-register.md`. It **supersedes** `plan-jira-expiry-guard.md`: same platform and spike, broader offer, higher price anchor.
+- **Why C wins:**
+  - It is the only option where billing, hosting and discovery are run by the platform at $0.
+  - Buyers are businesses that already pay $87-2,850/yr for this type of add-on.
+  - It is genuinely automated after launch, and the owner's IT skills are the moat.
+- **Why A, B(i) and B(ii) are rejected:**
+  - **A as specified** (Walmart monitoring) conflicts with Walmart's ToS and our no-scraping rule. A compliant version depends on gated retailer APIs, needs an audience we don't have, and competes with free 20k+ member servers.
+  - **B(i)** is not recurring and not automated.
+  - **B(ii)** needs about 43-100M Shorts views/month for $3k and runs straight into the inauthentic-content policy.
+- **Revisit triggers:**
+  - A: only if Walmart or Best Buy grants written commercial API access.
+  - B: not planned.
+  - C4 (Shopify back-in-stock): a possible later sister product if C1 succeeds.
+- **Candid odds for C (est.):**
+  - About 50% chance of some MRR within 6 months of listing.
+  - About 10% chance of $3k/mo within 12 months.
+  - About 25-30% within 24 months, most likely via 2-3 listings on one codebase rather than one app. Even the category leaders' installs (about 1,350-1,550) imply roughly $2-5k MRR each (est.), so $3k from a single new app is a stretch.
